@@ -4,12 +4,14 @@ import javax.enterprise.context.ApplicationScoped;
 import javax.inject.Inject;
 
 @ApplicationScoped
-class LicencePlateNumberGdansk implements LicencePlateNumberGenerator {
+@Gdynia
+class LicencePlateNumberGdynia implements LicencePlateNumberGenerator {
 
     @Inject
     private SufixNumberGenerator sufix;
     
+    @Override
     public String generate() {
-        return "GD " + sufix.get();
+        return "GA "+ sufix.get();
     }
 }

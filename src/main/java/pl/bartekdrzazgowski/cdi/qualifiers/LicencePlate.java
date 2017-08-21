@@ -1,6 +1,6 @@
 package pl.bartekdrzazgowski.cdi.qualifiers;
 
-public class LicencePlate {
+class LicencePlate {
 
     private String number;
 

@@ -2,9 +2,10 @@ package pl.bartekdrzazgowski.cdi.qualifiers;
 
 import javax.inject.Inject;
 
-public class LicenceService {
+class LicenceService {
 
     @Inject
+   
     private LicencePlateNumberGenerator numberGenerator; 
     
     LicencePlate createLicencePlate() {

@@ -1,6 +1,5 @@
 package pl.bartekdrzazgowski.cdi.qualifiers;
 
-public interface LicencePlateNumberGenerator {
-
+interface LicencePlateNumberGenerator {
     String generate();
 }
