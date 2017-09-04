@@ -42,7 +42,8 @@
 					<!-- <commandlineArgs>-Duser.language=en -Duser.country=EN
 						-Djava.util.logging.config.file=src/main/resources/logging.properties
 					</commandlineArgs> -->
-					<mainClass>pl.bartekdrzazgowski.cdi.qualifiers.Main</mainClass>
+					<!-- <mainClass>pl.bartekdrzazgowski.cdi.qualifiers.Main</mainClass> -->
+					<mainClass>pl.bartekdrzazgowski.cdi.producers.Main</mainClass>
 					<includePluginDependencies>false</includePluginDependencies>
 				</configuration>
 			</plugin>
